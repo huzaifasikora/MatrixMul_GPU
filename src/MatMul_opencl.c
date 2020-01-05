@@ -15,7 +15,10 @@
 #define MAX_SOURCE_SIZE 0x100000
 #define print 1	// Set this to 1 if you want to see matrix details
 
+
+/////////////////////////////////////////////////////////
 // Allocates a matrix with random float entries.
+/////////////////////////////////////////////////////////
 void randomInit(float* data, int size)
 {
 	int i;
@@ -23,6 +26,9 @@ void randomInit(float* data, int size)
 		data[i] = rand() / (float) RAND_MAX;
 	}
 }
+/////////////////////////////////////////////////////////
+
+
 
 /////////////////////////////////////////////////////////
 // Program main
