@@ -3,17 +3,17 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include <oclUtils.h>
+// #include <oclUtils.h>
 #include "CL/cl.h"
 
 #define WA 1024
-#define HA 1024
-#define WB 1024
-#define HB 1024
-#define WC 1024
-#define HC 1024
+#define HA WA
+#define WB WA
+#define HB WA
+#define WC WA
+#define HC WA
 #define MAX_SOURCE_SIZE 0x100000
-#define print 1	// Set this to 1 if you want to see matrix details
+#define print 0	// Set this to 1 if you want to see matrix details
 
 
 /////////////////////////////////////////////////////////
